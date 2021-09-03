@@ -1,0 +1,51 @@
+{
+  "id": "2782134",
+  "name": "ego",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1719303",
+      "name": "产品管理",
+      "font_class": "chanpinguanli",
+      "unicode": "e7b6",
+      "unicode_decimal": 59318
+    },
+    {
+      "icon_id": "8843466",
+      "name": "分类-选中",
+      "font_class": "leimupinleifenleileibie",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "9835817",
+      "name": "其他",
+      "font_class": "qita",
+      "unicode": "e688",
+      "unicode_decimal": 59016
+    },
+    {
+      "icon_id": "14829290",
+      "name": "广告",
+      "font_class": "guanggao",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "15322857",
+      "name": "个人中心 - 中",
+      "font_class": "gerenzhongxin-zhong",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "20769622",
+      "name": "规格",
+      "font_class": "guige",
+      "unicode": "e832",
+      "unicode_decimal": 59442
+    }
+  ]
+}

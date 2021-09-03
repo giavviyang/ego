@@ -1,0 +1,25 @@
+import Vue from 'vue'
+import App from './App.vue'
+import router from './router'
+import store from './store'
+import './router/router-permission'
+import './plugins/element.js'
+import './assets/less/reset.less'
+// import './assets/iconfont/iconfont.css'
+import api from './api'
+
+
+Vue.config.productionTip = false;
+Vue.prototype.$api=api;
+
+//获取本地数据
+let user=localStorage.getItem('userToken');
+if(user){
+  store.commit('loginModule/setUser',JSON.parse(user));
+}
+
+new Vue({
+  router,
+  store,
+  render: h => h(App)
+}).$mount('#app')

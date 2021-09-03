@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2782134 */
+  src: url('iconfont.woff2?t=1630474917602') format('woff2'),
+       url('iconfont.woff?t=1630474917602') format('woff'),
+       url('iconfont.ttf?t=1630474917602') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chanpinguanli:before {
+  content: "\e7b6";
+}
+
+.icon-leimupinleifenleileibie:before {
+  content: "\e600";
+}
+
+.icon-qita:before {
+  content: "\e688";
+}
+
+.icon-guanggao:before {
+  content: "\e634";
+}
+
+.icon-gerenzhongxin-zhong:before {
+  content: "\e601";
+}
+
+.icon-guige:before {
+  content: "\e832";
+}
+
